@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head><!-- cabeçalho do arquivo html -->
+		<title>Aula 04</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Prof. Jair Ferraz" />
+		<meta name="viewport" content="width-device-width, initial-scale=1.0" />
+		<!-- tags meta para motores de busca - SEO -->
+		<meta name="keywords" content="html, css" />
+		<meta name="description" content="layout html" />
+		<!-- estilo CSS -->
+		<link rel="stylesheet" href="estilo.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Layout HTML</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Conteúdo</a></li>
+				<li><a href="#">Galeria</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="esquerda">
+				<h2>Sobre:</h2>
+				<p>Although she may look tough and punk, she is actually very girly and is attracted to good-looking guys! Kuromi enjoys writing in her diary and is hooked on romantic short stories. Her favorite colors are black and hot pink. Her favorite food is shallots, all kinds of meat, and in recent Kuromi merchandise cherries have been shown. Despite being a villain, Kuromi is mostly into food and even cooks. You might call her a rowdy free spirit.</p>
+				<h2>Histórico</h2>
+				<p>Kuromi is the "punk" tomboy counterpart to My Melody.</p>
+				<div class="imgKuromi" style="height:200px">Imagem 1</div>
+				<div class="imgKuromi" style="height:200px">Imagem 2</div>
+				<div class="imgKuromi" style="height:200px">Imagem 3</div>				
+			</div>
+		<div> class="conteudo"</div>
+		<h2>Conteúdo da Página</h2>
+		<h5>
+			<script>
+				<!-- Js para pegar a data atual -->
+				date = new Date().toLocaleDateString();
+				document.write(date);
+			</script>	
+		</h5>
+		<div class="imgKuromi style="height:200px">Imagem 4</div>
+		
+		<p>she is actually very girly...</p>
+		<p>Kuromi is from the anime Onegai My Melody. 
+		In the anime series Onegai My Melody, 
+		Kuromi holds a strong grudge against My Melody 
+		originating from small, innocent mistakes 
+		My Melody made when they were children.</p>
+		<picture>
+		<source media="(min-width: 600px)" 
+			srcset="./imagens/lalo.jpg"
+			width="600px"/>
+		<source media="(min-width: 465px)" 
+			srcset="./imagens/imgPequena.jpg" />
+		<img src="./imagens/caminho.jpg"
+		     alt="Caminho entre árvores"
+			 style="max-width:100%; height:auto;"/>
+		</picture>
+		<br/>
+		<h2>Subtitulo...</h2>
+		<h5>13/06/2022</h5>
+		<p>miau miau miau</p>
+		<p>She keeps a notebook which she dubs the "Kuromi Note" filled with over 6,324 instances of times My Melody has wronged her. These events are very minuscule (such as My Melody eating the last pickled onion from Kuromi's school lunch tray) but Kuromi treats them as traumatic events, and vows to get revenge someday. </p>
+		
+		</div>
+	</body>
+</html>
